@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB4A05E72503DC0B00997BB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A05E62503DC0B00997BB1 /* AppDelegate.swift */; };
+		FB4A05E92503DC0B00997BB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A05E82503DC0B00997BB1 /* SceneDelegate.swift */; };
+		FB4A05EB2503DC0B00997BB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A05EA2503DC0B00997BB1 /* ContentView.swift */; };
+		FB4A05ED2503DC0E00997BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4A05EC2503DC0E00997BB1 /* Assets.xcassets */; };
+		FB4A05F02503DC0E00997BB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4A05EF2503DC0E00997BB1 /* Preview Assets.xcassets */; };
+		FB4A05F32503DC0E00997BB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4A05F12503DC0E00997BB1 /* LaunchScreen.storyboard */; };
+		FB4A05FE2503DC0E00997BB1 /* CoffeeMarketPricesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A05FD2503DC0E00997BB1 /* CoffeeMarketPricesTests.swift */; };
+		FB4A06092503DC0F00997BB1 /* CoffeeMarketPricesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A06082503DC0F00997BB1 /* CoffeeMarketPricesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB4A05FA2503DC0E00997BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4A05DB2503DC0B00997BB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4A05E22503DC0B00997BB1;
+			remoteInfo = CoffeeMarketPrices;
+		};
+		FB4A06052503DC0F00997BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4A05DB2503DC0B00997BB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4A05E22503DC0B00997BB1;
+			remoteInfo = CoffeeMarketPrices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB4A05E32503DC0B00997BB1 /* CoffeeMarketPrices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMarketPrices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4A05E62503DC0B00997BB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB4A05E82503DC0B00997BB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB4A05EA2503DC0B00997BB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB4A05EC2503DC0E00997BB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB4A05EF2503DC0E00997BB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB4A05F22503DC0E00997BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB4A05F42503DC0E00997BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4A05F92503DC0E00997BB1 /* CoffeeMarketPricesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeMarketPricesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4A05FD2503DC0E00997BB1 /* CoffeeMarketPricesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMarketPricesTests.swift; sourceTree = "<group>"; };
+		FB4A05FF2503DC0E00997BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4A06042503DC0F00997BB1 /* CoffeeMarketPricesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeMarketPricesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4A06082503DC0F00997BB1 /* CoffeeMarketPricesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMarketPricesUITests.swift; sourceTree = "<group>"; };
+		FB4A060A2503DC0F00997BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB4A05E02503DC0B00997BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4A05F62503DC0E00997BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4A06012503DC0F00997BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB4A05DA2503DC0B00997BB1 = {
+			isa = PBXGroup;
+			children = (
+				FB4A05E52503DC0B00997BB1 /* CoffeeMarketPrices */,
+				FB4A05FC2503DC0E00997BB1 /* CoffeeMarketPricesTests */,
+				FB4A06072503DC0F00997BB1 /* CoffeeMarketPricesUITests */,
+				FB4A05E42503DC0B00997BB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB4A05E42503DC0B00997BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB4A05E32503DC0B00997BB1 /* CoffeeMarketPrices.app */,
+				FB4A05F92503DC0E00997BB1 /* CoffeeMarketPricesTests.xctest */,
+				FB4A06042503DC0F00997BB1 /* CoffeeMarketPricesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB4A05E52503DC0B00997BB1 /* CoffeeMarketPrices */ = {
+			isa = PBXGroup;
+			children = (
+				FB4A05E62503DC0B00997BB1 /* AppDelegate.swift */,
+				FB4A05E82503DC0B00997BB1 /* SceneDelegate.swift */,
+				FB4A05EA2503DC0B00997BB1 /* ContentView.swift */,
+				FB4A05EC2503DC0E00997BB1 /* Assets.xcassets */,
+				FB4A05F12503DC0E00997BB1 /* LaunchScreen.storyboard */,
+				FB4A05F42503DC0E00997BB1 /* Info.plist */,
+				FB4A05EE2503DC0E00997BB1 /* Preview Content */,
+			);
+			path = CoffeeMarketPrices;
+			sourceTree = "<group>";
+		};
+		FB4A05EE2503DC0E00997BB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB4A05EF2503DC0E00997BB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB4A05FC2503DC0E00997BB1 /* CoffeeMarketPricesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4A05FD2503DC0E00997BB1 /* CoffeeMarketPricesTests.swift */,
+				FB4A05FF2503DC0E00997BB1 /* Info.plist */,
+			);
+			path = CoffeeMarketPricesTests;
+			sourceTree = "<group>";
+		};
+		FB4A06072503DC0F00997BB1 /* CoffeeMarketPricesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4A06082503DC0F00997BB1 /* CoffeeMarketPricesUITests.swift */,
+				FB4A060A2503DC0F00997BB1 /* Info.plist */,
+			);
+			path = CoffeeMarketPricesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB4A05E22503DC0B00997BB1 /* CoffeeMarketPrices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4A060D2503DC0F00997BB1 /* Build configuration list for PBXNativeTarget "CoffeeMarketPrices" */;
+			buildPhases = (
+				FB4A05DF2503DC0B00997BB1 /* Sources */,
+				FB4A05E02503DC0B00997BB1 /* Frameworks */,
+				FB4A05E12503DC0B00997BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeMarketPrices;
+			productName = CoffeeMarketPrices;
+			productReference = FB4A05E32503DC0B00997BB1 /* CoffeeMarketPrices.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB4A05F82503DC0E00997BB1 /* CoffeeMarketPricesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4A06102503DC0F00997BB1 /* Build configuration list for PBXNativeTarget "CoffeeMarketPricesTests" */;
+			buildPhases = (
+				FB4A05F52503DC0E00997BB1 /* Sources */,
+				FB4A05F62503DC0E00997BB1 /* Frameworks */,
+				FB4A05F72503DC0E00997BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4A05FB2503DC0E00997BB1 /* PBXTargetDependency */,
+			);
+			name = CoffeeMarketPricesTests;
+			productName = CoffeeMarketPricesTests;
+			productReference = FB4A05F92503DC0E00997BB1 /* CoffeeMarketPricesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB4A06032503DC0F00997BB1 /* CoffeeMarketPricesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4A06132503DC0F00997BB1 /* Build configuration list for PBXNativeTarget "CoffeeMarketPricesUITests" */;
+			buildPhases = (
+				FB4A06002503DC0F00997BB1 /* Sources */,
+				FB4A06012503DC0F00997BB1 /* Frameworks */,
+				FB4A06022503DC0F00997BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4A06062503DC0F00997BB1 /* PBXTargetDependency */,
+			);
+			name = CoffeeMarketPricesUITests;
+			productName = CoffeeMarketPricesUITests;
+			productReference = FB4A06042503DC0F00997BB1 /* CoffeeMarketPricesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB4A05DB2503DC0B00997BB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Rohith Thammaiah";
+				TargetAttributes = {
+					FB4A05E22503DC0B00997BB1 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					FB4A05F82503DC0E00997BB1 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = FB4A05E22503DC0B00997BB1;
+					};
+					FB4A06032503DC0F00997BB1 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = FB4A05E22503DC0B00997BB1;
+					};
+				};
+			};
+			buildConfigurationList = FB4A05DE2503DC0B00997BB1 /* Build configuration list for PBXProject "CoffeeMarketPrices" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB4A05DA2503DC0B00997BB1;
+			productRefGroup = FB4A05E42503DC0B00997BB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB4A05E22503DC0B00997BB1 /* CoffeeMarketPrices */,
+				FB4A05F82503DC0E00997BB1 /* CoffeeMarketPricesTests */,
+				FB4A06032503DC0F00997BB1 /* CoffeeMarketPricesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB4A05E12503DC0B00997BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4A05F32503DC0E00997BB1 /* LaunchScreen.storyboard in Resources */,
+				FB4A05F02503DC0E00997BB1 /* Preview Assets.xcassets in Resources */,
+				FB4A05ED2503DC0E00997BB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4A05F72503DC0E00997BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4A06022503DC0F00997BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB4A05DF2503DC0B00997BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4A05E72503DC0B00997BB1 /* AppDelegate.swift in Sources */,
+				FB4A05E92503DC0B00997BB1 /* SceneDelegate.swift in Sources */,
+				FB4A05EB2503DC0B00997BB1 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4A05F52503DC0E00997BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4A05FE2503DC0E00997BB1 /* CoffeeMarketPricesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4A06002503DC0F00997BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4A06092503DC0F00997BB1 /* CoffeeMarketPricesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB4A05FB2503DC0E00997BB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB4A05E22503DC0B00997BB1 /* CoffeeMarketPrices */;
+			targetProxy = FB4A05FA2503DC0E00997BB1 /* PBXContainerItemProxy */;
+		};
+		FB4A06062503DC0F00997BB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB4A05E22503DC0B00997BB1 /* CoffeeMarketPrices */;
+			targetProxy = FB4A06052503DC0F00997BB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB4A05F12503DC0E00997BB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB4A05F22503DC0E00997BB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB4A060B2503DC0F00997BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB4A060C2503DC0F00997BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB4A060E2503DC0F00997BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CoffeeMarketPrices/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CoffeeMarketPrices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrt.CoffeeMarketPrices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB4A060F2503DC0F00997BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CoffeeMarketPrices/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CoffeeMarketPrices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrt.CoffeeMarketPrices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB4A06112503DC0F00997BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoffeeMarketPricesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrt.CoffeeMarketPricesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeMarketPrices.app/CoffeeMarketPrices";
+			};
+			name = Debug;
+		};
+		FB4A06122503DC0F00997BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoffeeMarketPricesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrt.CoffeeMarketPricesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeMarketPrices.app/CoffeeMarketPrices";
+			};
+			name = Release;
+		};
+		FB4A06142503DC0F00997BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoffeeMarketPricesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrt.CoffeeMarketPricesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoffeeMarketPrices;
+			};
+			name = Debug;
+		};
+		FB4A06152503DC0F00997BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoffeeMarketPricesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrt.CoffeeMarketPricesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoffeeMarketPrices;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB4A05DE2503DC0B00997BB1 /* Build configuration list for PBXProject "CoffeeMarketPrices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4A060B2503DC0F00997BB1 /* Debug */,
+				FB4A060C2503DC0F00997BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4A060D2503DC0F00997BB1 /* Build configuration list for PBXNativeTarget "CoffeeMarketPrices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4A060E2503DC0F00997BB1 /* Debug */,
+				FB4A060F2503DC0F00997BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4A06102503DC0F00997BB1 /* Build configuration list for PBXNativeTarget "CoffeeMarketPricesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4A06112503DC0F00997BB1 /* Debug */,
+				FB4A06122503DC0F00997BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4A06132503DC0F00997BB1 /* Build configuration list for PBXNativeTarget "CoffeeMarketPricesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4A06142503DC0F00997BB1 /* Debug */,
+				FB4A06152503DC0F00997BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB4A05DB2503DC0B00997BB1 /* Project object */;
+}
