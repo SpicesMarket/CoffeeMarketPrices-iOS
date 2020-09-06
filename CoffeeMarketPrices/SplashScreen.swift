@@ -9,9 +9,45 @@
 import SwiftUI
 
 struct SplashScreen: View {
+    @State private var isActive = false
+    let home = HomeScreen()
+    
     var body: some View {
-        Text("Coffee Prices")
+        NavigationView {
+            VStack {
+                Text("Spice Prices")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.black)
+                    .multilineTextAlignment(.center)
+                    .lineLimit(1)
+                    .frame(maxWidth: .infinity,
+                           maxHeight: .infinity,
+                           alignment: .center)
+                
+                NavigationLink(destination: home,
+                               isActive: $isActive,
+                               label: { EmptyView() })
+                
+            }.frame(minWidth: 0,
+                    maxWidth: .infinity,
+                    minHeight: 0,
+                    maxHeight: .infinity,
+                    alignment: .topLeading
+            )
+                .background(Color("primaryColor"))
+                .onAppear(perform: {
+                    self.gotoHomeScreen(time: 2.5)
+                })
+        }
     }
+    
+    func gotoHomeScreen(time: Double) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + Double(time)) {
+            self.isActive = true
+        }
+    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
