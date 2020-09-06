@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FB4A05E72503DC0B00997BB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A05E62503DC0B00997BB1 /* AppDelegate.swift */; };
 		FB4A05E92503DC0B00997BB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A05E82503DC0B00997BB1 /* SceneDelegate.swift */; };
-		FB4A05EB2503DC0B00997BB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A05EA2503DC0B00997BB1 /* ContentView.swift */; };
+		FB4A05EB2503DC0B00997BB1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A05EA2503DC0B00997BB1 /* SplashScreen.swift */; };
 		FB4A05ED2503DC0E00997BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4A05EC2503DC0E00997BB1 /* Assets.xcassets */; };
 		FB4A05F02503DC0E00997BB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4A05EF2503DC0E00997BB1 /* Preview Assets.xcassets */; };
 		FB4A05F32503DC0E00997BB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4A05F12503DC0E00997BB1 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		FB4A05E32503DC0B00997BB1 /* CoffeeMarketPrices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMarketPrices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4A05E62503DC0B00997BB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB4A05E82503DC0B00997BB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB4A05EA2503DC0B00997BB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB4A05EA2503DC0B00997BB1 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		FB4A05EC2503DC0E00997BB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB4A05EF2503DC0E00997BB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB4A05F22503DC0E00997BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			children = (
 				FB4A05E62503DC0B00997BB1 /* AppDelegate.swift */,
 				FB4A05E82503DC0B00997BB1 /* SceneDelegate.swift */,
-				FB4A05EA2503DC0B00997BB1 /* ContentView.swift */,
+				FB4A05EA2503DC0B00997BB1 /* SplashScreen.swift */,
 				FB4A05EC2503DC0E00997BB1 /* Assets.xcassets */,
 				FB4A05F12503DC0E00997BB1 /* LaunchScreen.storyboard */,
 				FB4A05F42503DC0E00997BB1 /* Info.plist */,
@@ -269,7 +269,7 @@
 			files = (
 				FB4A05E72503DC0B00997BB1 /* AppDelegate.swift in Sources */,
 				FB4A05E92503DC0B00997BB1 /* SceneDelegate.swift in Sources */,
-				FB4A05EB2503DC0B00997BB1 /* ContentView.swift in Sources */,
+				FB4A05EB2503DC0B00997BB1 /* SplashScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
