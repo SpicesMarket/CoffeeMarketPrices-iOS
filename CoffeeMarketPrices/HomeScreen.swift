@@ -35,6 +35,9 @@ struct HomeScreen: View {
                 maxHeight: .infinity,
                 alignment: .topLeading
         ).background(Color("primaryColor"))
+            .navigationBarTitle("")
+            .navigationBarHidden(true)
+        
     }
 }
 

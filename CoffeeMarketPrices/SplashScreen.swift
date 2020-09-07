@@ -39,6 +39,8 @@ struct SplashScreen: View {
                 .onAppear(perform: {
                     self.gotoHomeScreen(time: 2.5)
                 })
+                .navigationBarTitle("")
+                .navigationBarHidden(true)
         }
     }
     
