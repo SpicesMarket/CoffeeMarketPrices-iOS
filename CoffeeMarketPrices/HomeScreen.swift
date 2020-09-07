@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct HomeScreen: View {
+    var tags: [Int] = [0,1,2,3]
+    
     var body: some View {
         VStack {
             Spacer()
@@ -28,6 +30,31 @@ struct HomeScreen: View {
                 .fontWeight(.regular)
                 .foregroundColor(Color.black)
                 .frame(maxWidth: .infinity, alignment: .center)
+            
+            Spacer()
+                .frame(height: 64)
+            
+    
+            
+            ForEach(tags,  id: \.self) { i in
+                VStack (alignment: .center) {
+                    HStack {
+                        Text("Arabica Parchment")
+                            .font(.headline)
+                            .fontWeight(.regular)
+                            .foregroundColor(Color.black)
+                            .frame(minWidth: 0, maxWidth: .infinity)
+                        
+                        Text("Rs 2000 - 3000 / 50 KG")
+                            .font(.subheadline)
+                            .fontWeight(.regular)
+                            .foregroundColor(Color.black)
+                            .frame(minWidth: 0, maxWidth: .infinity)
+                    }
+                    Spacer()
+                        .frame(height: 64)
+                }
+            }
             
         }.frame(minWidth: 0,
                 maxWidth: .infinity,
