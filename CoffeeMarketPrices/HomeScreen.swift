@@ -19,7 +19,7 @@ struct HomeScreen: View {
             Text("Spice Prices")
                 .font(.title)
                 .fontWeight(.bold)
-                .foregroundColor(Color.black)
+                .foregroundColor(Color.white)
                 .frame(maxWidth: .infinity, alignment: .center)
             
             Spacer()
@@ -28,7 +28,7 @@ struct HomeScreen: View {
             Text("Last updated: 06/09/2020")
                 .font(.caption)
                 .fontWeight(.regular)
-                .foregroundColor(Color.black)
+                .foregroundColor(Color.white)
                 .frame(maxWidth: .infinity, alignment: .center)
             
             Spacer()
@@ -42,13 +42,13 @@ struct HomeScreen: View {
                         Text("Arabica Parchment")
                             .font(.headline)
                             .fontWeight(.regular)
-                            .foregroundColor(Color.black)
+                            .foregroundColor(Color.white)
                             .frame(minWidth: 0, maxWidth: .infinity)
                         
                         Text("Rs 2000 - 3000 / 50 KG")
                             .font(.subheadline)
                             .fontWeight(.regular)
-                            .foregroundColor(Color.black)
+                            .foregroundColor(Color.white)
                             .frame(minWidth: 0, maxWidth: .infinity)
                     }
                     Spacer()
