@@ -22,49 +22,49 @@ struct SpiceView : View {
                     VStack {
                         Spacer()
                         Rectangle()
-                        .fill(Color.white)
-                        .frame(width: 20, height: 10)
+                            .fill(Color.white)
+                            .frame(width: 20, height: 10)
                     }
                     VStack {
                         Spacer()
                         Rectangle()
-                        .fill(Color.white)
-                        .frame(width: 20, height: 20)
-                    }
-                    
-                    VStack {
-                        Spacer()
-                        Rectangle()
-                        .fill(Color.white)
-                        .frame(width: 20, height: 30)
+                            .fill(Color.white)
+                            .frame(width: 20, height: 20)
                     }
                     
                     VStack {
                         Spacer()
                         Rectangle()
-                        .fill(Color.white)
-                        .frame(width: 20, height: 40)
+                            .fill(Color.white)
+                            .frame(width: 20, height: 30)
                     }
                     
                     VStack {
                         Spacer()
                         Rectangle()
-                        .fill(Color.white)
-                        .frame(width: 20, height: 50)
+                            .fill(Color.white)
+                            .frame(width: 20, height: 40)
                     }
                     
                     VStack {
                         Spacer()
                         Rectangle()
-                        .fill(Color.white)
-                        .frame(width: 20, height: 35)
+                            .fill(Color.white)
+                            .frame(width: 20, height: 50)
                     }
                     
                     VStack {
                         Spacer()
                         Rectangle()
-                        .fill(Color.white)
-                        .frame(width: 20, height: 32)
+                            .fill(Color.white)
+                            .frame(width: 20, height: 35)
+                    }
+                    
+                    VStack {
+                        Spacer()
+                        Rectangle()
+                            .fill(Color.white)
+                            .frame(width: 20, height: 32)
                     }
                 }.frame(maxHeight: .none)
                 
@@ -74,7 +74,7 @@ struct SpiceView : View {
                     .foregroundColor(Color.white)
                     .frame(minWidth: 0, maxWidth: .infinity)
             }
-            }
+        }
         .background(Color("bgCard"))
     }
 }

@@ -9,7 +9,6 @@
 import SwiftUI
 
 struct HomeScreen: View {
-    var tags: [Int] = [0,1,2,3]
     
     var body: some View {
         VStack {
@@ -36,7 +35,7 @@ struct HomeScreen: View {
             
             GridStack(rows: 3, columns: 2) { row, col in
                 SpiceView()
-                .padding()
+                    .padding()
             }
             
         }.frame(minWidth: 0,
