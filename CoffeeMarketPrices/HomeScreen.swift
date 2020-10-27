@@ -34,10 +34,9 @@ struct HomeScreen: View {
             Spacer()
                 .frame(height: 24)
             
-    
-            
-            ForEach(tags,  id: \.self) { i in
+            GridStack(rows: 3, columns: 2) { row, col in
                 SpiceView()
+                .padding()
             }
             
         }.frame(minWidth: 0,

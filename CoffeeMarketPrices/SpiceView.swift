@@ -75,7 +75,7 @@ struct SpiceView : View {
                     .frame(minWidth: 0, maxWidth: .infinity)
             }
             }
-        .background(Color("primaryColor"))
+        .background(Color("bgCard"))
     }
 }
 

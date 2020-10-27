@@ -17,6 +17,7 @@
 		FB4A06092503DC0F00997BB1 /* CoffeeMarketPricesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A06082503DC0F00997BB1 /* CoffeeMarketPricesUITests.swift */; };
 		FB4A06172504C4BF00997BB1 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A06162504C4BF00997BB1 /* HomeScreen.swift */; };
 		FB4B25332547C8E6000739F3 /* SpiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B25322547C8E6000739F3 /* SpiceView.swift */; };
+		FB4B25352547CCDF000739F3 /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B25342547CCDF000739F3 /* GridStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FB4A060A2503DC0F00997BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB4A06162504C4BF00997BB1 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		FB4B25322547C8E6000739F3 /* SpiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiceView.swift; sourceTree = "<group>"; };
+		FB4B25342547CCDF000739F3 /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				FB4A05EE2503DC0E00997BB1 /* Preview Content */,
 				FB4A06162504C4BF00997BB1 /* HomeScreen.swift */,
 				FB4B25322547C8E6000739F3 /* SpiceView.swift */,
+				FB4B25342547CCDF000739F3 /* GridStack.swift */,
 			);
 			path = CoffeeMarketPrices;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			files = (
 				FB4A06172504C4BF00997BB1 /* HomeScreen.swift in Sources */,
 				FB4A05E72503DC0B00997BB1 /* AppDelegate.swift in Sources */,
+				FB4B25352547CCDF000739F3 /* GridStack.swift in Sources */,
 				FB4A05E92503DC0B00997BB1 /* SceneDelegate.swift in Sources */,
 				FB4B25332547C8E6000739F3 /* SpiceView.swift in Sources */,
 				FB4A05EB2503DC0B00997BB1 /* SplashScreen.swift in Sources */,
