@@ -32,28 +32,12 @@ struct HomeScreen: View {
                 .frame(maxWidth: .infinity, alignment: .center)
             
             Spacer()
-                .frame(height: 64)
+                .frame(height: 24)
             
     
             
             ForEach(tags,  id: \.self) { i in
-                VStack (alignment: .center) {
-                    HStack {
-                        Text("Arabica Parchment")
-                            .font(.headline)
-                            .fontWeight(.regular)
-                            .foregroundColor(Color.white)
-                            .frame(minWidth: 0, maxWidth: .infinity)
-                        
-                        Text("Rs 2000 - 3000 / 50 KG")
-                            .font(.subheadline)
-                            .fontWeight(.regular)
-                            .foregroundColor(Color.white)
-                            .frame(minWidth: 0, maxWidth: .infinity)
-                    }
-                    Spacer()
-                        .frame(height: 64)
-                }
+                SpiceView()
             }
             
         }.frame(minWidth: 0,
