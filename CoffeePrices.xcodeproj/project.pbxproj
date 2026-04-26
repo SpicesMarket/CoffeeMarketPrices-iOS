@@ -6,8 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F7363A002F9E3F0000D0CF63 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F7363A022F9E3F0000D0CF63 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7363B072F9E400000D0CF63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7362FBC2F9E3E2D00D0CF63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7362FC32F9E3E2D00D0CF63;
+			remoteInfo = CoffeePrices;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		F7362FC42F9E3E2D00D0CF63 /* CoffeePrices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeePrices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7363B062F9E400000D0CF63 /* CoffeePricesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeePricesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +31,23 @@
 			path = CoffeePrices;
 			sourceTree = "<group>";
 		};
+		F7363B052F9E400000D0CF63 /* CoffeePricesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoffeePricesTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F7362FC12F9E3E2D00D0CF63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7363A002F9E3F0000D0CF63 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7363B022F9E400000D0CF63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				F7362FC62F9E3E2D00D0CF63 /* CoffeePrices */,
+				F7363B052F9E400000D0CF63 /* CoffeePricesTests */,
 				F7362FC52F9E3E2D00D0CF63 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				F7362FC42F9E3E2D00D0CF63 /* CoffeePrices.app */,
+				F7363B062F9E400000D0CF63 /* CoffeePricesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,10 +95,34 @@
 			);
 			name = CoffeePrices;
 			packageProductDependencies = (
+				F7363A022F9E3F0000D0CF63 /* Alamofire */,
 			);
 			productName = CoffeePrices;
 			productReference = F7362FC42F9E3E2D00D0CF63 /* CoffeePrices.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F7363B002F9E400000D0CF63 /* CoffeePricesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7363B082F9E400000D0CF63 /* Build configuration list for PBXNativeTarget "CoffeePricesTests" */;
+			buildPhases = (
+				F7363B012F9E400000D0CF63 /* Sources */,
+				F7363B022F9E400000D0CF63 /* Frameworks */,
+				F7363B032F9E400000D0CF63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7363B042F9E400000D0CF63 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F7363B052F9E400000D0CF63 /* CoffeePricesTests */,
+			);
+			name = CoffeePricesTests;
+			packageProductDependencies = (
+			);
+			productName = CoffeePricesTests;
+			productReference = F7363B062F9E400000D0CF63 /* CoffeePricesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -83,6 +137,10 @@
 					F7362FC32F9E3E2D00D0CF63 = {
 						CreatedOnToolsVersion = 26.3;
 					};
+					F7363B002F9E400000D0CF63 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = F7362FC32F9E3E2D00D0CF63;
+					};
 				};
 			};
 			buildConfigurationList = F7362FBF2F9E3E2D00D0CF63 /* Build configuration list for PBXProject "CoffeePrices" */;
@@ -94,18 +152,29 @@
 			);
 			mainGroup = F7362FBB2F9E3E2D00D0CF63;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F7363A012F9E3F0000D0CF63 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F7362FC52F9E3E2D00D0CF63 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F7362FC32F9E3E2D00D0CF63 /* CoffeePrices */,
+				F7363B002F9E400000D0CF63 /* CoffeePricesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F7362FC22F9E3E2D00D0CF63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7363B032F9E400000D0CF63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +191,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7363B012F9E400000D0CF63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7363B042F9E400000D0CF63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7362FC32F9E3E2D00D0CF63 /* CoffeePrices */;
+			targetProxy = F7363B072F9E400000D0CF63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F7362FCD2F9E3E2E00D0CF63 /* Debug */ = {
@@ -250,19 +334,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 25;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.9.3;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.sprices.CoffeePrices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -281,19 +365,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 25;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.9.3;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.sprices.CoffeePrices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -303,6 +387,50 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7363B092F9E400000D0CF63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sprices.CoffeePricesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeePrices.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoffeePrices";
+			};
+			name = Debug;
+		};
+		F7363B0A2F9E400000D0CF63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sprices.CoffeePricesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeePrices.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoffeePrices";
 			};
 			name = Release;
 		};
@@ -327,7 +455,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		F7363B082F9E400000D0CF63 /* Build configuration list for PBXNativeTarget "CoffeePricesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7363B092F9E400000D0CF63 /* Debug */,
+				F7363B0A2F9E400000D0CF63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F7363A012F9E3F0000D0CF63 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7363A022F9E3F0000D0CF63 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7363A012F9E3F0000D0CF63 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F7362FBC2F9E3E2D00D0CF63 /* Project object */;
 }
